@@ -16,6 +16,13 @@ import edu.wpi.first.wpilibj.buttons.JoystickButton;
  * interface to the commands and command groups that allow control of the robot.
  */
 public class OI {
-	Joystick controller = new Joystick(1);
-	Button rightTrigger = new JoystickButton(controller, 1);
+	Joystick joystick;
+	
+	public OI(int portNumber) {
+		joystick = new Joystick(portNumber);
+	}
+	
+	public double getAxis(int axisNumber) {
+		return joystick.getRawAxis(axisNumber);
+	}
 }
