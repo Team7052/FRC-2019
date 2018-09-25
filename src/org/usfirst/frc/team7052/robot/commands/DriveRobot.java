@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.command.Command;
  *
  */
 public class DriveRobot extends Command {
-
+	/* In here, is the functions for driving the robot (using the differential drive class etc.) */
     public DriveRobot() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);

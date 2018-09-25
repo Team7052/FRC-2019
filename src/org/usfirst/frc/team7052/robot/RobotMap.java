@@ -14,7 +14,7 @@ package org.usfirst.frc.team7052.robot;
  * floating around.
  */
 public class RobotMap {
-
+	/* you want to make these constant: public static final int */
 	
 	public static int frontLeftMotor = 3;
 	public static int frontRightMotor = 1;
